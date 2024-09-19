@@ -1,0 +1,170 @@
+{
+  "main": {
+    "id": "6342b8ea1c2bda2e",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ab8ee4b5bdc141e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ea62a23e6471c39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exercises/1 - haskell exe.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "87dd152844a274e9",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0cb3b0c34ed52d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8cee1c270f92849",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6b81598441742a64",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3a2c25739c18a1ae",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e5aa0dbccd2b7f05",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dd0bcf902520e75",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c9c97afc9bf07167",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "exercises/1 - haskell exe.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "10a6a8ee0e70609b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "exercises/1 - haskell exe.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9d8b86e9bdc42296",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "exercises/1 - haskell exe.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "webpage-html-export:Export as HTML": false
+    }
+  },
+  "active": "0ea62a23e6471c39",
+  "lastOpenFiles": [
+    "exercises/2 - erlang exe.md",
+    "README.md",
+    "docs/2 - erlang.md",
+    "docs/1 - haskell.md",
+    "notes/scheme/Scheme List of expressions.md",
+    "notes/scheme/Quasiquote and unquote.md",
+    "notes/scheme/pair? vs list?.md",
+    "notes/scheme/Nesting call-cc.md",
+    "notes/scheme/Nested let in scheme.md",
+    "notes/scheme/List, Quotes and Function in Scheme.md",
+    "notes/scheme/List vs Pair.md",
+    "notes/scheme/Let** exe.md",
+    "notes/scheme/Begin vs Lambda in Scheme.md",
+    "notes/haskell/Prefix vs Infix minus sign.md",
+    "notes/haskell/Monads.md",
+    "notes/haskell/Instance of typeclass.md",
+    "notes/haskell/Haskell Errors.md",
+    "notes/haskell/Haskell Class Types.md",
+    "notes/haskell/foldr vs foldl.md",
+    "notes/haskell/Dollar sign VS Dot.md",
+    "notes/haskell/concat in haskell.md",
+    "notes/haskell/Applicative Class.md",
+    "notes/erlang/True and False in Erlang.md",
+    "notes/erlang/Nesting receive in Erlang.md",
+    "notes/erlang/Erlang Tuples.md",
+    "notes/erlang/Erlang strings.md",
+    "Untitled.canvas",
+    "docs/scheme"
+  ]
+}

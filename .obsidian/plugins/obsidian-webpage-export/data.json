@@ -1,0 +1,198 @@
+{
+  "settingsVersion": "0.0.0",
+  "exportOptions": {
+    "createDocumentContainer": true,
+    "createPusherElement": true,
+    "makeHeadersTrees": true,
+    "postProcess": true,
+    "displayProgress": true,
+    "inlineHTML": false,
+    "exportPath": "",
+    "filesToExport": [],
+    "addBodyClasses": true,
+    "addMathjaxStyles": true,
+    "addHeadTag": true,
+    "addRSS": true,
+    "addTitle": true,
+    "addPageIcon": true,
+    "backlinkOptions": {
+      "featureId": "backlinks",
+      "enabled": true,
+      "alwaysEnabled": false,
+      "displayTitle": "Backlinks",
+      "featurePlacement": {
+        "selector": ".footer",
+        "type": "start"
+      }
+    },
+    "tagOptions": {
+      "featureId": "tags",
+      "enabled": true,
+      "alwaysEnabled": false,
+      "displayTitle": "",
+      "featurePlacement": {
+        "selector": ".header .data-bar",
+        "type": "end"
+      },
+      "showInlineTags": true,
+      "showFrontmatterTags": true
+    },
+    "aliasOptions": {
+      "featureId": "aliases",
+      "enabled": true,
+      "alwaysEnabled": false,
+      "displayTitle": "",
+      "featurePlacement": {
+        "selector": ".header .data-bar",
+        "type": "start"
+      }
+    },
+    "propertiesOptions": {
+      "featureId": "properties",
+      "enabled": true,
+      "alwaysEnabled": false,
+      "displayTitle": "Properties",
+      "featurePlacement": {
+        "selector": ".header",
+        "type": "start"
+      }
+    },
+    "fileNavigationOptions": {
+      "featureId": "file-navigation",
+      "enabled": true,
+      "alwaysEnabled": false,
+      "displayTitle": "",
+      "featurePlacement": {
+        "selector": "#left-sidebar-content",
+        "type": "end"
+      },
+      "showDefaultFolderIcons": false,
+      "showDefaultFileIcons": false,
+      "defaultFolderIcon": "lucide//folder",
+      "defaultFileIcon": "lucide//file",
+      "defaultMediaIcon": "lucide//file-image",
+      "exposeStartingPath": true,
+      "includePath": "site-lib/html/file-tree.html"
+    },
+    "searchOptions": {
+      "featureId": "search",
+      "enabled": true,
+      "alwaysEnabled": false,
+      "displayTitle": "Search...",
+      "featurePlacement": {
+        "selector": "#left-sidebar .topbar-content",
+        "type": "start"
+      }
+    },
+    "outlineOptions": {
+      "featureId": "outline",
+      "enabled": true,
+      "alwaysEnabled": false,
+      "displayTitle": "Outline",
+      "featurePlacement": {
+        "selector": "#right-sidebar-content",
+        "type": "end"
+      },
+      "startCollapsed": false,
+      "minCollapseDepth": 0
+    },
+    "themeToggleOptions": {
+      "featureId": "theme-toggle",
+      "enabled": true,
+      "alwaysEnabled": false,
+      "displayTitle": "",
+      "featurePlacement": {
+        "selector": "#right-sidebar .topbar-content",
+        "type": "start"
+      }
+    },
+    "graphViewOptions": {
+      "featureId": "graph-view",
+      "enabled": true,
+      "alwaysEnabled": false,
+      "displayTitle": "Graph View",
+      "featurePlacement": {
+        "selector": "#right-sidebar-content",
+        "type": "start"
+      },
+      "showOrphanNodes": true,
+      "showAttachments": false,
+      "allowGlobalGraph": true,
+      "allowExpand": true,
+      "attractionForce": 1,
+      "linkLength": 15,
+      "repulsionForce": 80,
+      "centralForce": 2,
+      "edgePruning": 100,
+      "minNodeRadius": 3,
+      "maxNodeRadius": 7
+    },
+    "sidebarOptions": {
+      "featureId": "sidebar",
+      "enabled": true,
+      "alwaysEnabled": false,
+      "allowResizing": true,
+      "allowCollapsing": true,
+      "rightDefaultWidth": "20em",
+      "leftDefaultWidth": "20em"
+    },
+    "customHeadOptions": {
+      "featureId": "custom-head",
+      "enabled": true,
+      "alwaysEnabled": false,
+      "displayTitle": "",
+      "featurePlacement": {
+        "selector": "head",
+        "type": "end"
+      },
+      "sourcePath": "",
+      "includePath": "site-lib/html/custom-head.html"
+    },
+    "documentOptions": {
+      "featureId": "obsidian-document",
+      "enabled": true,
+      "alwaysEnabled": true,
+      "allowFoldingLists": true,
+      "allowFoldingHeadings": true,
+      "documentWidth": "40em"
+    },
+    "relativeHeaderLinks": false,
+    "includeJS": true,
+    "includeCSS": true,
+    "inlineMedia": false,
+    "inlineCSS": false,
+    "inlineJS": false,
+    "inlineFonts": false,
+    "inlineOther": false,
+    "combineAsSingleFile": false,
+    "offlineResources": false,
+    "themeName": "",
+    "slugifyPaths": true,
+    "flattenExportPaths": false,
+    "fixLinks": true,
+    "siteURL": "",
+    "siteName": "PPL",
+    "faviconPath": "",
+    "iconEmojiStyle": "Native",
+    "authorName": "",
+    "exportRoot": "",
+    "includePluginCSS": [],
+    "includeSvelteCSS": true,
+    "autoDisposeWebpages": true
+  },
+  "logLevel": "warning",
+  "titleProperty": "title",
+  "onlyExportModified": true,
+  "deleteOldFiles": true,
+  "exportPreset": "online",
+  "openAfterExport": true,
+  "filePickerBlacklist": [
+    "(^|\\/)node_modules\\/",
+    "(^|\\/)dist\\/",
+    "(^|\\/)dist-ssr\\/",
+    "(^|\\/)\\.vscode\\/"
+  ],
+  "filePickerWhitelist": [
+    "\\.\\w+$"
+  ]
+}

@@ -1,0 +1,40 @@
+name: Build Webpage
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Build page
+        run: |
+          set +e
+          mkdir -p ./.output
+
+          docker run --rm -v .:/vault -v ./.output:/output spartacus04/obsidian-webpage-export:latest >> ./.log.txt
+
+          cat ./.log.txt
+
+          if [ $? -eq 137 ]; then
+            exit 0
+            echo "output=./.output" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./.output
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
