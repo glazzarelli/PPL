@@ -81595,14 +81595,14 @@ var _HTMLExportPlugin = class extends import_obsidian14.Plugin {
     this.addCommand({
       id: "export-html-vault",
       name: "Export using previous settings",
-      callback: () => {
-        HTMLExporter.export(true);
+      callback: async () => {
+        await await await await HTMLExporter.export(true);
       }
     });
     this.addCommand({
       id: "export-html-current",
       name: "Export only current file using previous settings",
-      callback: () => {
+      callback: async () => {
         const file = this.app.workspace.getActiveFile();
         if (!file) {
           new import_obsidian14.Notice("No file is currently open!", 5e3);
@@ -81614,7 +81614,7 @@ var _HTMLExportPlugin = class extends import_obsidian14.Plugin {
     this.addCommand({
       id: "export-html-setting",
       name: "Set html export settings",
-      callback: () => {
+      callback: async () => {
         HTMLExporter.export(false);
       }
     });

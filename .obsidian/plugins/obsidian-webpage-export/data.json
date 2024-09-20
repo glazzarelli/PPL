@@ -17,7 +17,7 @@
     "addPageIcon": true,
     "backlinkOptions": {
       "featureId": "backlinks",
-      "enabled": true,
+      "enabled": false,
       "alwaysEnabled": false,
       "displayTitle": "Backlinks",
       "featurePlacement": {
@@ -108,7 +108,7 @@
     },
     "graphViewOptions": {
       "featureId": "graph-view",
-      "enabled": true,
+      "enabled": false,
       "alwaysEnabled": false,
       "displayTitle": "Graph View",
       "featurePlacement": {
@@ -165,7 +165,7 @@
     "inlineFonts": false,
     "inlineOther": false,
     "combineAsSingleFile": false,
-    "offlineResources": false,
+    "offlineResources": true,
     "themeName": "",
     "slugifyPaths": true,
     "flattenExportPaths": false,
@@ -185,7 +185,7 @@
   "onlyExportModified": true,
   "deleteOldFiles": true,
   "exportPreset": "online",
-  "openAfterExport": true,
+  "openAfterExport": false,
   "filePickerBlacklist": [
     "(^|\\/)node_modules\\/",
     "(^|\\/)dist\\/",
