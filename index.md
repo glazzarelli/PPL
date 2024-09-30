@@ -1,6 +1,6 @@
 ## About
 
-These are the notes of the Principles of Programming Languages held @Polimi by professor Matteo Pradella. The notes are written in markdown and can still be found in the github repository from which the website is automatically generated.
+These are the notes of the Principles of Programming Languages held @Polimi by professor Matteo Pradella. The notes are written in markdown and can still be found in the github [repository](https://github.com/glazzarelli/PPL) from which the website is automatically generated.
 
 ## Structure
 
