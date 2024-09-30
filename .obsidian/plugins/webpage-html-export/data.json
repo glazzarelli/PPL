@@ -1,5 +1,5 @@
 {
-  "settingsVersion": "0.0.0",
+  "settingsVersion": "1.8.1-2b",
   "exportOptions": {
     "createDocumentContainer": true,
     "createPusherElement": true,
@@ -8,17 +8,20 @@
     "displayProgress": true,
     "inlineHTML": false,
     "exportPath": "/output",
-    "filesToExport": [],
+    "filesToExport": [
+      "index.md",
+      "docs",
+      "exercises",
+      "notes"
+    ],
     "addBodyClasses": true,
     "addMathjaxStyles": true,
     "addHeadTag": true,
-    "addRSS": false,
+    "addRSS": true,
     "addTitle": true,
-    "addPageIcon": true,
     "backlinkOptions": {
       "featureId": "backlinks",
       "enabled": false,
-      "alwaysEnabled": false,
       "displayTitle": "Backlinks",
       "featurePlacement": {
         "selector": ".footer",
@@ -28,19 +31,23 @@
     "tagOptions": {
       "featureId": "tags",
       "enabled": true,
-      "alwaysEnabled": false,
       "displayTitle": "",
       "featurePlacement": {
         "selector": ".header .data-bar",
         "type": "end"
       },
-      "showInlineTags": true,
-      "showFrontmatterTags": true
+      "showInlineTags": {
+        "show": true,
+        "description": "Show tags that are inline in the document"
+      },
+      "showFrontmatterTags": {
+        "show": true,
+        "description": "Show tags that are in the frontmatter"
+      }
     },
     "aliasOptions": {
       "featureId": "aliases",
       "enabled": true,
-      "alwaysEnabled": false,
       "displayTitle": "",
       "featurePlacement": {
         "selector": ".header .data-bar",
@@ -50,7 +57,6 @@
     "propertiesOptions": {
       "featureId": "properties",
       "enabled": true,
-      "alwaysEnabled": false,
       "displayTitle": "Properties",
       "featurePlacement": {
         "selector": ".header",
@@ -60,7 +66,6 @@
     "fileNavigationOptions": {
       "featureId": "file-navigation",
       "enabled": true,
-      "alwaysEnabled": false,
       "displayTitle": "",
       "featurePlacement": {
         "selector": "#left-sidebar-content",
@@ -77,7 +82,6 @@
     "searchOptions": {
       "featureId": "search",
       "enabled": true,
-      "alwaysEnabled": false,
       "displayTitle": "Search...",
       "featurePlacement": {
         "selector": "#left-sidebar .topbar-content",
@@ -87,7 +91,6 @@
     "outlineOptions": {
       "featureId": "outline",
       "enabled": true,
-      "alwaysEnabled": false,
       "displayTitle": "Outline",
       "featurePlacement": {
         "selector": "#right-sidebar-content",
@@ -99,7 +102,6 @@
     "themeToggleOptions": {
       "featureId": "theme-toggle",
       "enabled": true,
-      "alwaysEnabled": false,
       "displayTitle": "",
       "featurePlacement": {
         "selector": "#right-sidebar .topbar-content",
@@ -109,7 +111,6 @@
     "graphViewOptions": {
       "featureId": "graph-view",
       "enabled": false,
-      "alwaysEnabled": false,
       "displayTitle": "Graph View",
       "featurePlacement": {
         "selector": "#right-sidebar-content",
@@ -130,7 +131,6 @@
     "sidebarOptions": {
       "featureId": "sidebar",
       "enabled": true,
-      "alwaysEnabled": false,
       "allowResizing": true,
       "allowCollapsing": true,
       "rightDefaultWidth": "20em",
@@ -139,19 +139,17 @@
     "customHeadOptions": {
       "featureId": "custom-head",
       "enabled": true,
-      "alwaysEnabled": false,
       "displayTitle": "",
       "featurePlacement": {
         "selector": "head",
-        "type": "end"
+        "type": "start"
       },
       "sourcePath": "",
       "includePath": "site-lib/html/custom-head.html"
     },
-    "documentOptions": {
+    "fileOptions": {
       "featureId": "obsidian-document",
       "enabled": true,
-      "alwaysEnabled": true,
       "allowFoldingLists": true,
       "allowFoldingHeadings": true,
       "documentWidth": "40em"
@@ -165,27 +163,27 @@
     "inlineFonts": false,
     "inlineOther": false,
     "combineAsSingleFile": false,
-    "offlineResources": true,
+    "offlineResources": false,
     "themeName": "",
     "slugifyPaths": true,
     "flattenExportPaths": false,
     "fixLinks": true,
     "siteURL": "",
-    "siteName": "PPL",
+    "siteName": "Principles of Programming Languages",
     "faviconPath": "",
+    "customHeadPath": "",
     "iconEmojiStyle": "Native",
     "authorName": "",
     "exportRoot": "",
     "includePluginCSS": [],
-    "includeSvelteCSS": true,
-    "autoDisposeWebpages": true
+    "includeSvelteCSS": true
   },
   "logLevel": "warning",
   "titleProperty": "title",
-  "onlyExportModified": true,
+  "onlyExportModified": false,
   "deleteOldFiles": true,
   "exportPreset": "online",
-  "openAfterExport": false,
+  "openAfterExport": true,
   "filePickerBlacklist": [
     "(^|\\/)node_modules\\/",
     "(^|\\/)dist\\/",
